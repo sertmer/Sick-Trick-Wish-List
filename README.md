@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sick Trick Wish List
 
-## Getting Started
+## Document Contains:
+- Overview
+- Goals
+- Project Features
+- Database Organization
+- UX / UI Ideas
+- Ambitions
 
-First, run the development server:
+## Overview
+### About this project
+Sick Trick Wish List is a skateboarding progression app designed to help skaters track, plan, and share their journey of mastering various skateboarding tricks. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This app is being created as a passion project to merge the love for skateboarding with technology, providing a digital platform to enhance the physical experience of the sport.
+### About the team
+- Scott Ertmer, skateboard enthusiast and developer 🛹💻
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Goals
+  
+### Learning Goals
+- Master Next.js and its server-side rendering capabilities for SEO benefits
+- Implement user authentication and database management with NextAuth.js and MongoDB
+- Explore modern UX/UI design principles tailored to the skateboarding culture
+- Develop a responsive, intuitive app that serves as a practical tool for skateboarders
+- Implement TypeScript for early error detection, and improved code maintainability
+  
+### Metrics
+Success will be measured by the app's ability to engage users, the completion of the MVP with core functionalities, and feedback from the skateboarding community on its utility and user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Features
+### MVP
+- User authentication: sign up, log in, log out
+- Trick library: view a comprehensive list of skateboarding tricks
+- Add trick: users can select tricks to work on, choosing stance and obstacles
+- My tricks: users can view their list of current and mastered tricks
+- Tutorial links: users can add and view tutorial links for each trick
+- Progress tracking: users can mark tricks as learned and track their progression
+### General
+- Mobile-first responsive design to ensure accessibility on the go
+- Community features for sharing progress and tips
+### Front End Specific
+- Next.js for frontend framework, ensuring fast load times and SEO friendliness
+- Tailwind CSS for styling, focusing on responsive design and usability
+### Back End Specific
+- PostGresQL for a flexible, scalable database solution
+- NextAuth.js for secure and easy user authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Database Organization
+### Diagram
+(Include a basic diagram of your database schema)
+### Relationships
+- User-Trick relationship to track individual progress
+- Trick-Tutorial relationship for linking learning resources
+### Behavior
+- CRUD operations for user trick lists
+- Query optimizations for fast retrieval of tricks and tutorials
 
-## Learn More
+## UX / UI Ideas
+- Skateboarding-themed design with a focus on minimalism and usability
+- Interactive elements like progress bars and draggable lists for trick prioritization
+- Dark mode option to reduce eye strain and appeal to aesthetic preferences
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Ambitions
+### Future Iterations
+- Integration of a community forum or board for users to share experiences and tips
+- Event and competition listings to encourage community engagement and real-world meetups
+- Advanced progress tracking with video uploads and peer feedback
+### Scale and Deployment
+- Consider deployment on Vercel for optimized Next.js hosting
+- Plan for scalability with database and serverless functions to accommodate growing user base
