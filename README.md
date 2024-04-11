@@ -43,15 +43,14 @@ Success will be measured by the app's ability to engage users, the completion of
 - Next.js for frontend framework, ensuring fast load times and SEO friendliness
 - Tailwind CSS for styling, focusing on responsive design and usability
 ### Back End Specific
-- PostGresQL for a flexible, scalable database solution
+- PostGreSQL for a flexible, scalable database solution
 - NextAuth.js for secure and easy user authentication
 
 ## Database Organization
 ### Diagram
-(Include a basic diagram of your database schema)
+
 ### Relationships
-- User-Trick relationship to track individual progress
-- Trick-Tutorial relationship for linking learning resources
+- TBD
 ### Behavior
 - CRUD operations for user trick lists
 - Query optimizations for fast retrieval of tricks and tutorials
