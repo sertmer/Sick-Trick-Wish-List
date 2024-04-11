@@ -1,10 +1,16 @@
 import TrickItem from '@/components/AllTricksPage/TrickItem'
 
-const TricksList = () => {
+const TricksList = ({tricksList}) => {
+
+  const tricks = tricksList.map(trick =>  {
+    return <TrickItem trickInfo={trick} />
+  })
+
+
   return (
     <div>
       <p>TricksList</p>
-      <TrickItem />
+      {tricks}
     </div>
   )
 }
