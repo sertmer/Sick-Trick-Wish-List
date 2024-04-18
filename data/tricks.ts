@@ -1,4 +1,6 @@
-const tricks = [
+import {Trick} from '../types/types';
+
+const tricks: Trick[] = [
   {
     name: 'Ollie',
     trickType: 'Basic',

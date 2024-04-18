@@ -1,8 +1,13 @@
-import TrickItem from '@/components/AllTricksPage/TrickItem'
+import TrickItem from '@/components/AllTricksPage/TrickItem';
+import { Trick } from '../../../types/types';
 
-const TricksList = ({ tricksList }) => {
+interface TricksListProps {
+  tricks: Trick[]
+}
 
-  const tricks = tricksList.map(trick => {
+const TricksList = ({ tricks }: TricksListProps) => {
+
+  const tricksList = tricks.map(trick => {
     return <TrickItem trickInfo={trick} />
   })
 
@@ -10,7 +15,7 @@ const TricksList = ({ tricksList }) => {
     <div>
       <p>TricksList</p>
       <div className="flex overflow-x-auto py-2 sm:py-4 space-x-2 sm:space-x-4">
-        {tricks}
+        {tricksList}
       </div>
     </div>
   )

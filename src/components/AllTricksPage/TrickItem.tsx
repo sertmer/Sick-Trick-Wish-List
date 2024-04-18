@@ -1,4 +1,10 @@
-const TrickItem = ({trickInfo}) => {
+import {Trick} from '../../../types/types';
+
+interface TrickItemProps {
+  trickInfo: Trick;
+}
+
+const TrickItem = ({trickInfo}: TrickItemProps) => {
   
   const {
     name,

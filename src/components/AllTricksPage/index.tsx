@@ -5,7 +5,7 @@ const AllTricksPage = () => {
   return (
     <div>
       <p>AllTricks page</p>
-      <TricksList tricksList={tricks}/>
+      <TricksList tricks={tricks}/>
     </div>
   )
 }
