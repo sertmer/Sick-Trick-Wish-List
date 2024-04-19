@@ -5,5 +5,11 @@ export interface Trick {
   description: string;
   variation: string;
   tutorialLinks: string[];
-  status: string;  
+  status: string;
+  id: number;  
 }
+
+// link to /tricks/id
+// grab that id from the params, 
+// find the correct id trick
+// render that at the right url

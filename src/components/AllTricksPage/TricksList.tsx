@@ -1,5 +1,6 @@
 import TrickItem from '@/components/AllTricksPage/TrickItem';
 import { Trick } from '../../../types/types';
+import Link from 'next/link';
 
 interface TricksListProps {
   tricks: Trick[]
@@ -8,7 +9,11 @@ interface TricksListProps {
 const TricksList = ({ tricks }: TricksListProps) => {
 
   const tricksList = tricks.map(trick => {
-    return <TrickItem trickInfo={trick} />
+    return (
+      <Link href={`/tricks/${trick.id}`} >
+        <TrickItem trickInfo={trick} />
+      </Link>
+    )
   })
 
   return (
