@@ -10,8 +10,8 @@ const TricksList = ({ tricks }: TricksListProps) => {
 
   const tricksList = tricks.map(trick => {
     return (
-      <Link href={`/tricks/${trick.id}`} >
-        <TrickItem trickInfo={trick} key={trick.id}/>
+      <Link href={`/tricks/${trick.trickId}`} >
+        <TrickItem trickInfo={trick} key={trick.trickId}/>
       </Link>
     )
   })

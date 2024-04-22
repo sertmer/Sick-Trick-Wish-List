@@ -8,8 +8,3 @@ export interface Trick {
   status: string;
   trickId: number;  
 }
-
-// link to /tricks/id
-// grab that id from the params, 
-// find the correct id trick
-// render that at the right url

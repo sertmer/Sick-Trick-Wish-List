@@ -1,5 +1,6 @@
+'use client';
 import {Trick} from '../../../types/types';
-import {useRouter} from 'next/router';
+import { useSearchParams } from 'next/navigation';
 
 
 interface TrickItemProps {
@@ -7,10 +8,6 @@ interface TrickItemProps {
 }
 
 const TrickItem = ({trickInfo}: TrickItemProps) => {
-  // const router = useRouter();
-  // const {id} = router.query;
-
-  
   const {
     name,
     trickType,
@@ -19,7 +16,7 @@ const TrickItem = ({trickInfo}: TrickItemProps) => {
     variation,
     // tutorialLinks,
     status,
-    id
+    trickId
   } = trickInfo;
 
   
