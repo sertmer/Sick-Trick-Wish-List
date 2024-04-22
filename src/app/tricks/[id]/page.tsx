@@ -5,8 +5,8 @@ import tricks from '../../../../data/tricks';
 
 const Page = () => {
   const params = useParams();
-  const id = parseInt(params.id)
-  const matchingTrick = tricks.find(trick => id === trick.trickId)
+  const id = params.id
+  const matchingTrick = tricks.find(trick => id === trick.trickId.toString())
 
   return (
     <div className="border border-black p-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
