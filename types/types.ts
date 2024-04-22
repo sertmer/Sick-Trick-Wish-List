@@ -6,7 +6,7 @@ export interface Trick {
   variation: string;
   tutorialLinks: string[];
   status: string;
-  id: number;  
+  trickId: number;  
 }
 
 // link to /tricks/id
