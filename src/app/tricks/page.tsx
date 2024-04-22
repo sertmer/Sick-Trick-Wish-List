@@ -1,10 +1,11 @@
-import AllTricksPage from '@/components/AllTricksPage/Index';
+import TricksList from '@/components/Tricks/TricksList';
+import tricks from '../../../data/tricks';
 
 const Page = () => {
   return (
     <div>
-    <p>tricks</p>
-    <AllTricksPage />
+    <p>all tricks</p>
+    <TricksList tricks={tricks} />
     </div>
   )
 }

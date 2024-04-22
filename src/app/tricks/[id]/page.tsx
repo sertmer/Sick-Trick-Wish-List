@@ -1,6 +1,6 @@
 'use client';
 import { useParams } from 'next/navigation';
-import '@/components/AllTricksPage/TrickItem';
+import '@/components/Tricks/TrickItem';
 import tricks from '../../../../data/tricks';
 
 const page = () => {

@@ -1,4 +1,4 @@
-import TrickItem from '@/components/AllTricksPage/TrickItem';
+import TrickItem from '@/components/Tricks/TrickItem';
 import { Trick } from '../../../types/types';
 import Link from 'next/link';
 
