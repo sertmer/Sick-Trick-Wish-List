@@ -3,7 +3,7 @@ import { useParams } from 'next/navigation';
 import '@/components/Tricks/TrickItem';
 import tricks from '../../../../data/tricks';
 
-const page = () => {
+const Page = () => {
   const params = useParams();
   const id = parseInt(params.id)
   const matchingTrick = tricks.find(trick => id === trick.trickId)
