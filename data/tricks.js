@@ -1,6 +1,4 @@
-import { Trick } from '../types/types';
-
-const tricks: Trick[] = [
+const tricks = [
   {
     name: 'Ollie',
     trickType: 'Basic',
@@ -740,4 +738,4 @@ const tricks: Trick[] = [
   }
 ]
 
-export default tricks;
+module.exports = tricks;

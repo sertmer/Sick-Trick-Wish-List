@@ -1,5 +1,5 @@
 const { db } = require('@vercel/postgres');
-const tricks = require('../data/tricks.ts');
+const tricks = require('../data/tricks');
 
 async function seedTricks(client) {
     try {
@@ -34,7 +34,7 @@ async function seedTricks(client) {
 }
 
 async function main() {
-    const client = db.connect();
+    const client = await db.connect();
     await seedTricks(client);
     await client.end();
 }
