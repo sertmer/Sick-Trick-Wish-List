@@ -1,5 +1,5 @@
 const { db } = require('@vercel/postgres');
-const { tricks } = require('./data/tricks'); 
+const tricks = require('../data/tricks.ts');
 
 async function seedTricks(client) {
     try {
