@@ -1,9 +1,10 @@
 import {sql} from '@vercel/postgres';
+import { Trick } from '../types/types';
 
 export async function fetchTricks() {
   try {
     const tricks = await sql`SELECT * FROM TRICKS`
-    return tricks.rows
+    return tricks.rows as Trick[]
 
   }
   catch (error) {
@@ -15,7 +16,7 @@ export async function fetchTricks() {
 export async function fetchTrickById(id: string) {
   try {
     const trick = await sql`SELECT * FROM TRICKS WHERE trick_id = ${id}`
-    return trick.rows[0]
+    return trick.rows[0] as Trick;
   }
   catch (error) {
     console.error('Database Error:', error);
