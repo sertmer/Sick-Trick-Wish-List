@@ -5,5 +5,5 @@ export interface Trick {
   description: string;
   variation: string;
   status: string;
-  // trickId: number;  
+  trick_id: number;  
 }
