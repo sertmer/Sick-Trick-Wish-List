@@ -1,16 +1,19 @@
 import TrickItem from '@/components/Tricks/TrickItem';
 import { Trick } from '../../../types/types';
 import Link from 'next/link';
+import {fetchTricks} from '../../../data/data';
 
-interface TricksListProps {
-  tricks: Trick[]
-}
+// interface TricksListProps {
+//   tricks: Trick[]
+// }
 
-const TricksList = ({ tricks }: TricksListProps) => {
+async function TricksList() {
+
+  const tricks = await fetchTricks();
 
   const tricksList = tricks.map(trick => {
     return (
-      <Link href={`/tricks/${trick.trickId}`} key={trick.trickId}>
+      <Link href={`/tricks/${trick.trick_id}`} key={trick.trick_id}>
         <TrickItem trickInfo={trick} />
       </Link>
     )

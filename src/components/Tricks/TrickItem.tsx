@@ -1,6 +1,6 @@
 'use client';
 import {Trick} from '../../../types/types';
-import { useSearchParams } from 'next/navigation';
+
 
 
 interface TrickItemProps {
@@ -16,7 +16,7 @@ const TrickItem = ({trickInfo}: TrickItemProps) => {
     variation,
     // tutorialLinks,
     status,
-    trickId
+    trick_id
   } = trickInfo;
 
   
