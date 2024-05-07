@@ -12,7 +12,7 @@ export async function fetchTricks() {
   }
 };
 
-export async function fetchTrickById(id) {
+export async function fetchTrickById(id: string) {
   try {
     const trick = await sql`SELECT * FROM TRICKS WHERE trick_id = ${id}`
     return trick.rows[0]
