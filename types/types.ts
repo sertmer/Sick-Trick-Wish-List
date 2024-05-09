@@ -1,6 +1,6 @@
 export interface Trick {
   name: string;
-  trickType: string;  
+  trick_type: string;  
   difficulty: string;  
   description: string;
   variation: string;
