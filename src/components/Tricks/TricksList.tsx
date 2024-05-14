@@ -11,10 +11,6 @@ async function TricksList() {
     return tricks.filter(trick => trick.trick_type === trickType);
   };
 
-  const basic = filterTricksByType('Basic');
-  const flip = filterTricksByType('Flip')
-  const grind = filterTricksByType('Grind')
-
   const createComponents = (tricks: Trick[]) => {
     return tricks.map(trick => {
       return (
@@ -24,6 +20,10 @@ async function TricksList() {
       )
     })
   }
+
+  const basic = filterTricksByType('Basic');
+  const flip = filterTricksByType('Flip')
+  const grind = filterTricksByType('Grind')
 
   const basicTricks = createComponents(basic)
   const flipTricks = createComponents(flip)
