@@ -1,7 +1,7 @@
 const tricks = [
   {
     name: 'Ollie',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'A basic vertical jump with the skateboard.',
     variation: 'Regular',
@@ -9,7 +9,7 @@ const tricks = [
   },
   {
     name: 'Ollie',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'A basic vertical jump with the skateboard from your opposite stance',
     variation: 'Switch',
@@ -17,7 +17,7 @@ const tricks = [
   },
   {
     name: 'Ollie',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'A basic vertical jump with the skateboard while rolling backwards',
     variation: 'Fakie',
@@ -25,7 +25,7 @@ const tricks = [
   },
   {
     name: 'Ollie',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'A basic vertical jump with the skateboard from the nose rather than the tail',
     variation: 'Nollie',
@@ -33,7 +33,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your heels',
     variation: 'Regular Frontside',
@@ -41,7 +41,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your toes',
     variation: 'Regular Backside',
@@ -49,7 +49,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your heels',
     variation: 'Switch Frontside',
@@ -57,7 +57,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your toes',
     variation: 'Switch Backside',
@@ -65,7 +65,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your heels',
     variation: 'Regular Frontside',
@@ -73,7 +73,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your toes',
     variation: 'Fakie Backside',
@@ -82,7 +82,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Fakie Frontside',
@@ -90,7 +90,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your heels',
     variation: 'Nollie Frontside',
@@ -98,7 +98,7 @@ const tricks = [
   },
   {
     name: 'Ollie 180',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Beginner',
     description: 'An Ollie with a 180 degree rotatation towards your toes',
     variation: 'Nollie Backside',
@@ -106,7 +106,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Regular Backside',
@@ -114,7 +114,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Switch Frontside',
@@ -122,7 +122,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Switch Backside',
@@ -130,7 +130,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Nollie Frontside',
@@ -138,7 +138,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Nollie Backside',
@@ -146,7 +146,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Fakie Frontside',
@@ -154,7 +154,7 @@ const tricks = [
   },
   {
     name: 'Pop Shuvit',
-    trickType: 'Basic',
+    trick_type: 'Basic',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard rotates 180 degrees underfoot.',
     variation: 'Fakie Backside',
@@ -162,7 +162,7 @@ const tricks = [
   },
   {
     name: 'Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the toe.',
     variation: 'Regular',
@@ -170,7 +170,7 @@ const tricks = [
   },
   {
     name: 'Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the toe.',
     variation: 'Switch',
@@ -178,7 +178,7 @@ const tricks = [
   },
   {
     name: 'Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the toe.',
     variation: 'Nollie',
@@ -186,7 +186,7 @@ const tricks = [
   },
   {
     name: 'Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the toe.',
     variation: 'Fakie',
@@ -194,7 +194,7 @@ const tricks = [
   },
   {
     name: 'Heelflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the heel.',
     variation: 'Regular',
@@ -202,7 +202,7 @@ const tricks = [
   },
   {
     name: 'Heelflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the heel.',
     variation: 'Switch',
@@ -210,7 +210,7 @@ const tricks = [
   },
   {
     name: 'Heelflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the heel.',
     variation: 'Nollie',
@@ -218,7 +218,7 @@ const tricks = [
   },
   {
     name: 'Heelflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically, flicked with the heel.',
     variation: 'Fakie',
@@ -226,7 +226,7 @@ const tricks = [
   },
   {
     name: 'Varial Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 180, flicked with the toe.',
     variation: 'Regular',
@@ -234,7 +234,7 @@ const tricks = [
   },
   {
     name: 'Varial Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 180, flicked with the toe.',
     variation: 'Switch',
@@ -242,7 +242,7 @@ const tricks = [
   },
   {
     name: 'Varial Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 180, flicked with the toe.',
     variation: 'Fakie',
@@ -250,7 +250,7 @@ const tricks = [
   },
   {
     name: 'Varial Kickflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 180, flicked with the toe.',
     variation: 'Nollie',
@@ -258,7 +258,7 @@ const tricks = [
   },
   {
     name: 'Treflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 360, flicked with the toe.',
     variation: 'Regular',
@@ -266,7 +266,7 @@ const tricks = [
   },
   {
     name: 'Treflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 360, flicked with the toe.',
     variation: 'Switch',
@@ -274,7 +274,7 @@ const tricks = [
   },
   {
     name: 'Treflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 360, flicked with the toe.',
     variation: 'Fakie',
@@ -282,7 +282,7 @@ const tricks = [
   },
   {
     name: 'Treflip',
-    trickType: 'Flip',
+    trick_type: 'Flip',
     difficulty: 'Intermediate',
     description: 'A trick where the skateboard flips over vertically and spins a 360, flicked with the toe.',
     variation: 'Nollie',
@@ -290,7 +290,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your front.',
     variation: 'Regular Frontside',
@@ -298,7 +298,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your back.',
     variation: 'Regular Backside',
@@ -306,7 +306,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your front.',
     variation: 'Switch Frontside',
@@ -314,7 +314,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your back.',
     variation: 'Switch Backside',
@@ -322,7 +322,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your front.',
     variation: 'Fakie Frontside',
@@ -330,7 +330,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your back.',
     variation: 'Fakie Backside',
@@ -338,7 +338,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your front.',
     variation: 'Nollie Frontside',
@@ -346,7 +346,7 @@ const tricks = [
   },
   {
     name: '50-50',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Grinding on a rail with both trucks, approaching with the ledge towards your back.',
     variation: 'Nollie Backside',
@@ -354,7 +354,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -362,7 +362,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -370,7 +370,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -378,7 +378,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -386,7 +386,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -394,7 +394,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -402,7 +402,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -410,7 +410,7 @@ const tricks = [
   },
   {
     name: '5-0 Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'A grind on the back truck, with the front truck elevated, approaching with the ledge to your back.',
     variation: 'Nollie Backside',
@@ -418,7 +418,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -426,7 +426,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -434,7 +434,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -442,7 +442,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -450,7 +450,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -458,7 +458,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -466,7 +466,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -474,7 +474,7 @@ const tricks = [
   },
   {
     name: 'Nose Grind',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Advanced',
     description: 'Grinding on the front truck, with the back truck elevated, approaching with the ledge to your back.',
     variation: 'Nollie Backside',
@@ -482,7 +482,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -490,7 +490,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -498,7 +498,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -506,7 +506,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -514,7 +514,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -522,7 +522,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -530,7 +530,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -538,7 +538,7 @@ const tricks = [
   },
   {
     name: 'Nose Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the nose, approaching with the ledge to your back.',
     variation: 'Nollie Backside',
@@ -546,7 +546,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -554,7 +554,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -562,7 +562,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -570,7 +570,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -578,7 +578,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -586,7 +586,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -594,7 +594,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -602,7 +602,7 @@ const tricks = [
   },
   {
     name: 'Tail Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the tail, approaching with the ledge to your back.',
     variation: 'Nolle Backside',
@@ -610,7 +610,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -618,7 +618,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -626,7 +626,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -634,7 +634,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -642,7 +642,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -650,7 +650,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -658,7 +658,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -666,7 +666,7 @@ const tricks = [
   },
   {
     name: 'Board Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Nolle Backside',
@@ -674,7 +674,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Regular Frontside',
@@ -682,7 +682,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Regular Backside',
@@ -690,7 +690,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Switch Frontside',
@@ -698,7 +698,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Switch Backside',
@@ -706,7 +706,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Fakie Frontside',
@@ -714,7 +714,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Fakie Backside',
@@ -722,7 +722,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your front.',
     variation: 'Nollie Frontside',
@@ -730,7 +730,7 @@ const tricks = [
   },
   {
     name: 'Lip Slide',
-    trickType: 'Grind',
+    trick_type: 'Grind',
     difficulty: 'Intermediate',
     description: 'Ollie up and over, half rotating so that your back end comes over the ledge, sliding on the middle of the board, approaching with the ledge to your back.',
     variation: 'Nolle Backside',
