@@ -22,12 +22,13 @@ const TrickItem = ({ trickInfo, simple }: TrickItemProps) => {
 
   if (simple) {
     return (
-      <div className="border border-black p-4 w-36 h-36 sm:w-60 sm:h-60 md:w-64 md:h-64 lg:w-50 lg:h-50 xl:w-70 xl:h-70">
-        <h3 className="text-base sm:text-lg font-bold">{variation} {name}</h3>
-        <p className="text-sm sm:text-base">{trick_type}</p>
-        <p className="text-sm sm:text-base">{difficulty}</p>
-        <p className="text-sm sm:text-base">{status}</p>
-      </div>
+      <div className="border border-black p-4 w-36 h-36 sm:w-60 sm:h-60 md:w-64 md:h-64 lg:w-50 lg:h-50 xl:w-70 xl:h-70 flex flex-col items-center justify-center">
+    <h3 className="text-base sm:text-lg font-bold text-center text-ellipsis">{variation} {name}</h3>
+    <p className="text-sm sm:text-base">{trick_type}</p>
+    <p className="text-sm sm:text-base">{difficulty}</p>
+    <p className="text-sm sm:text-base">{status}</p>
+</div>
+
     )
   } else {
     return (
