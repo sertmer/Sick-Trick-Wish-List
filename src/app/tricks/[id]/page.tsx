@@ -9,7 +9,7 @@ async function Page({params}: {params: {id: string}}) {
   // add render for undefined trick
 
   return (
-    <TrickItem trickInfo={trick} />
+    <TrickItem trickInfo={trick} simple={false} />
   )
 }
 

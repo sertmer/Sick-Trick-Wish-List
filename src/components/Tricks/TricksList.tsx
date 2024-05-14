@@ -15,7 +15,7 @@ async function TricksList() {
     return tricks.map(trick => {
       return (
         <Link href={`/tricks/${trick.trick_id}`} key={trick.trick_id}>
-          <TrickItem trickInfo={trick} />
+          <TrickItem trickInfo={trick} simple={true}/>
         </Link>
       )
     })
