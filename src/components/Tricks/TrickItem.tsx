@@ -15,7 +15,6 @@ const TrickItem = ({ trickInfo, simple }: TrickItemProps) => {
     difficulty,
     description,
     variation,
-    // tutorialLinks,
     status,
     trick_id
   } = trickInfo;
