@@ -1,12 +1,13 @@
 import TrickItem from '@/components/Tricks/TrickItem';
 import { Trick } from '../../../types/types';
 import Link from 'next/link';
-import { fetchTricks } from '../../../data/data';
 
-async function TricksList() {
+interface TricksListProps {
+  tricks: Trick[];
+}
 
-  const tricks = await fetchTricks(); // get all tricks
-  
+function TricksList({tricks} : TricksListProps) {
+
   const filterTricksByType = (trickType: string): Trick[] => {
     return tricks.filter(trick => trick.trick_type === trickType);
   };
