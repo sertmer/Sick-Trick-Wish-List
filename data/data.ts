@@ -3,7 +3,7 @@ import { Trick } from '../types/types';
 
 export async function fetchTricks() {
   try {
-    const tricks = await sql`SELECT * FROM TRICKS`
+    const tricks = await sql`SELECT * FROM TRICKS` 
     return tricks.rows as Trick[]
 
   }

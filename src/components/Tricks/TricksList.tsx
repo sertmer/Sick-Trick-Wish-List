@@ -1,21 +1,20 @@
+'use client';
 import TrickItem from '@/components/Tricks/TrickItem';
 import { Trick } from '../../../types/types';
 import Link from 'next/link';
-import { useState } from 'react';
 
 interface TricksListProps {
   tricks: Trick[];
 }
 
 function TricksList({tricks} : TricksListProps) {
-  const [allTricks, setAllTricks] = useState(tricks)
-
+  
   const filterTricksByType = (trickType: string): Trick[] => {
-    return allTricks.filter(trick => trick.trick_type === trickType);
+    return tricks.filter(trick => trick.trick_type === trickType);
   };
 
   const createComponents = (tricks: Trick[]) => {
-    return allTricks.map(trick => {
+    return tricks.map(trick => {
       return (
         <Link href={`/tricks/${trick.trick_id}`} key={trick.trick_id}>
           <TrickItem trickInfo={trick} simple={true}/>
