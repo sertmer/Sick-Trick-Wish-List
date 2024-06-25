@@ -1,7 +1,6 @@
-import { useParams } from 'next/navigation';
+'use client';
 import '@/components/Tricks/TrickItem';
 import TrickItem from '@/components/Tricks/TrickItem';
-import {fetchTrickById} from '../../../../data/data';
 import {TricksContext} from '../../../context/context';
 import { useContext } from 'react';
 

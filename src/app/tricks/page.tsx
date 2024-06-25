@@ -4,7 +4,7 @@ import { Trick } from '../../../types/types';
 import {TricksContext} from '../../context/context';
 import { useContext } from 'react';
 
-async function Page() {
+ const Page =() => {
   const tricks = useContext(TricksContext);
   return (
     <div>
