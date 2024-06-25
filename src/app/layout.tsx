@@ -1,5 +1,6 @@
 import NavBar from '@/components/NavBar';
 import '../styles/globals.css';
+import {TricksProvider} from '../context/context';
 
 export const metadata = {
   title: 'Next.js',
@@ -12,11 +13,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <TricksProvider>
     <html lang="en">
       <body>
         <NavBar />
         <main>{children}</main>
       </body>
     </html>
+    </TricksProvider>
   )
 }
